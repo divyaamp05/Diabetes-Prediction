@@ -4,7 +4,7 @@ import streamlit as st
 
 
 
-loaded_model = pickle.load(open("D:/Harshu/Machine Learning/Projects/Diabetes Prediction/trained_model.sav", "rb"))
+loaded_model = pickle.load(open("trained_model.sav", "rb"))
 
 def diabetes_prediction(input_data):
      input_data=np.array(input_data)
